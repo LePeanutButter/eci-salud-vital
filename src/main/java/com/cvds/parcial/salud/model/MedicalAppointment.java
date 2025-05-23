@@ -18,4 +18,24 @@ public class MedicalAppointment {
     private User user;
     private Doctor doctor;
     private AppointmentStatus appointmentStatus;
+
+    public void setId(String id) {
+        this.id = id;
+    }
+
+    public void setAppointmentStatus(AppointmentStatus appointmentStatus) {
+        this.appointmentStatus = appointmentStatus;
+    }
+
+    public void setDoctor(Doctor doctor) {
+        this.doctor = doctor;
+    }
+
+    public void setDate(LocalDate date) {
+        this.date = date;
+    }
+
+    public void setUser(User user) {
+        this.user = user;
+    }
 }

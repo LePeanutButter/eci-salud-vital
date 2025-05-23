@@ -15,4 +15,36 @@ public class MedicalAppointmentDTO {
     private User user;
     private Doctor doctor;
     private AppointmentStatus appointmentStatus;
+
+    public Doctor getDoctor() {
+        return doctor;
+    }
+
+    public AppointmentStatus getAppointmentStatus() {
+        return appointmentStatus;
+    }
+
+    public User getUser() {
+        return user;
+    }
+
+    public LocalDate getDate() {
+        return date;
+    }
+
+    public void setAppointmentStatus(AppointmentStatus appointmentStatus) {
+        this.appointmentStatus = appointmentStatus;
+    }
+
+    public void setDate(LocalDate date) {
+        this.date = date;
+    }
+
+    public void setDoctor(Doctor doctor) {
+        this.doctor = doctor;
+    }
+
+    public void setUser(User user) {
+        this.user = user;
+    }
 }

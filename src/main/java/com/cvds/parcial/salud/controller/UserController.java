@@ -24,7 +24,7 @@ public class UserController {
     @Autowired
     MedicalAppointmentService medicalAppointmentService;
 
-    @GetMapping(value = "/appointment")
+    @GetMapping(value = "/appointments")
     @Operation(summary = "Gets appointments")
     @ApiResponse(responseCode = "200", description = "Appointments gotten successfully")
     public ResponseEntity<List<MedicalAppointment>> getMedicalAppointments() {

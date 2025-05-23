@@ -8,4 +8,12 @@ import lombok.Setter;
 @Setter
 public class DoctorDTO {
     private Specialty specialty;
+
+    public Specialty getSpecialty() {
+        return specialty;
+    }
+
+    public void setSpecialty(Specialty specialty) {
+        this.specialty = specialty;
+    }
 }

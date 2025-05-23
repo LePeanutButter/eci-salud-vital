@@ -13,4 +13,16 @@ public class User {
     private String id;
     private String name;
     private String email;
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setId(String id) {
+        this.id = id;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
 }
